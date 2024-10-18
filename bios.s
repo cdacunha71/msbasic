@@ -32,8 +32,16 @@ CHRIN:
 		beq @no_keypressed
 		phx
 		jsr READ_BUFFER
-		plx
 		jsr CHROUT		; echo
+		pha
+		jsr BUFFER_SIZE
+		cmp #$7F
+		bcs @mostly_full
+		lda #$09
+		sta ACIA_CMD
+@mostly_full:
+		pla
+		plx
 		sec
 		rts
 @no_keypressed:
@@ -93,6 +101,12 @@ IRQ_HANDLER:
 		lda ACIA_STATUS		; reset IRQ
 		lda ACIA_DATA
 		jsr WRITE_BUFFER
+		jsr BUFFER_SIZE
+		cmp #$F0
+		bcc @not_full
+		lda #$01
+		sta ACIA_CMD
+@not_full:
 		plx
 		pla
 		rti
