@@ -1,4 +1,5 @@
 ; configuration
+BITMODE4 :=1
 CONFIG_2A := 1
 CONFIG_SCRTCH_ORDER := 2
  
