@@ -194,6 +194,17 @@ USR2:
 USR3:
 	.res 3
 .endif
+.ifdef EATER
+SAREG:
+	.res 1; Storage Area for .A Register (Accumulator)
+SXREG:
+	.res 1; Storage Area for .X Index Register
+SYREG:
+	.res 1; Storage Area for .Y Index Register
+SPREG:
+	.res 1; Storage Area for .P (Status) Register
+
+.endif
 CHRGET:
 TXTPTR = <(GENERIC_TXTPTR-GENERIC_CHRGET + CHRGET)
 CHRGOT = <(GENERIC_CHRGOT-GENERIC_CHRGET + CHRGET)

@@ -34,3 +34,4 @@
 .include "init.s"
 .include "extra.s"
 .include "lcd.s"
+.include "basic_extra.s"

@@ -17,12 +17,6 @@ ACIA_STATUS = $5001
 ACIA_CMD    = $5002
 ACIA_CTRL   = $5003
 
-;PAGE 3 VARIABLES
-;SAREG       = $40C          ; Storage Area for .A Register (Accumulator)
-;SXREG       = $40D          ; Storage Area for .X Index Register
-;SYREG       = $40E          ; Storage Area for .Y Index Register
-;SPREG       = $40F          ; Storage Area for .P (Status) Register
-
 LOAD:
 		rts
 SAVE:
@@ -110,29 +104,6 @@ BUFFER_SIZE:
 		sec
 		sbc READ_PTR
 		rts
-
-;SYS:                
-;                jsr FRMNUM              ; Eval formula
-;                jsr GETADR              ; Convert to int. addr
-;                lda #>SYSRETURN         ; Push return address
-;                pha
-;                lda #<SYSRETURN
-;                pha
-;                lda SPREG               ; Status reg
-;                pha
-;                lda SAREG               ; Load 6502 regs
-;                ldx SXREG
-;                ldy SYREG
-;                plp                     ; Load 6502 status reg
-;                jmp (LINNUM)            ; Go do it
-;SYSRETURN=*-1                
-;                php                     ; Save status reg
-;                sta SAREG               ; Save 6502 regs
-;                stx SXREG
-;                sty SYREG
-;                pla                     ; Get status reg
-;                sta SPREG
-;                rts 
 
 ; Interrupt request handler
 IRQ_HANDLER:
