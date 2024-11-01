@@ -203,6 +203,8 @@ SYREG:
 	.res 1; Storage Area for .Y Index Register
 SPREG:
 	.res 1; Storage Area for .P (Status) Register
+EXTRA_TABLE_FLAG:
+	.res 1; Storage Area for .P (Status) Register
 
 .endif
 CHRGET:
