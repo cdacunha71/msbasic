@@ -1,0 +1,133 @@
+supermon64.s:974: Error: Symbol 'INDIG' is undefined
+supermon64.s:975: Note: Expanded from here
+supermon64.s:1009: Note: Expanded from here
+supermon64.s:689: Error: Symbol 'SAVX' is undefined
+supermon64.s:701: Note: Expanded from here
+supermon64.s:1069: Note: Expanded from here
+supermon64.s:1073: Note: Expanded from here
+supermon64.s:1105: Note: Expanded from here
+supermon64.s:1115: Note: Expanded from here
+supermon64.s:1145: Note: Expanded from here
+supermon64.s:1148: Note: Expanded from here
+supermon64.s:584: Error: Symbol 'LENGTH' is undefined
+supermon64.s:619: Note: Expanded from here
+supermon64.s:644: Note: Expanded from here
+supermon64.s:663: Note: Expanded from here
+supermon64.s:664: Note: Expanded from here
+supermon64.s:723: Note: Expanded from here
+supermon64.s:724: Note: Expanded from here
+supermon64.s:726: Note: Expanded from here
+supermon64.s:746: Note: Expanded from here
+supermon64.s:584: Note: Dropping 2 additional line infos
+supermon64.s:573: Error: Symbol 'ACMD' is undefined
+supermon64.s:587: Note: Expanded from here
+supermon64.s:597: Note: Expanded from here
+supermon64.s:774: Note: Expanded from here
+supermon64.s:784: Note: Expanded from here
+supermon64.s:855: Note: Expanded from here
+supermon64.s:570: Error: Symbol 'U9F' is undefined
+supermon64.s:613: Note: Expanded from here
+supermon64.s:690: Note: Expanded from here
+supermon64.s:700: Note: Expanded from here
+supermon64.s:567: Error: Symbol 'OPCODE' is undefined
+supermon64.s:571: Note: Expanded from here
+supermon64.s:655: Note: Expanded from here
+supermon64.s:696: Note: Expanded from here
+supermon64.s:559: Error: Symbol 'U0AAE' is undefined
+supermon64.s:534: Error: Symbol 'NUMBIT' is undefined
+supermon64.s:960: Note: Expanded from here
+supermon64.s:988: Note: Expanded from here
+supermon64.s:1021: Note: Expanded from here
+supermon64.s:1304: Note: Expanded from here
+supermon64.s:1306: Note: Expanded from here
+supermon64.s:498: Error: Symbol 'MNEMW' is undefined
+supermon64.s:507: Note: Expanded from here
+supermon64.s:489: Error: Symbol 'DIGCNT' is undefined
+supermon64.s:525: Note: Expanded from here
+supermon64.s:537: Note: Expanded from here
+supermon64.s:913: Note: Expanded from here
+supermon64.s:930: Note: Expanded from here
+supermon64.s:939: Note: Expanded from here
+supermon64.s:978: Note: Expanded from here
+supermon64.s:1026: Note: Expanded from here
+supermon64.s:1303: Note: Expanded from here
+supermon64.s:489: Note: Dropping 2 additional line infos
+supermon64.s:488: Error: Symbol 'U0AA0' is undefined
+supermon64.s:513: Note: Expanded from here
+supermon64.s:514: Note: Expanded from here
+supermon64.s:531: Note: Expanded from here
+supermon64.s:546: Note: Expanded from here
+supermon64.s:557: Note: Expanded from here
+supermon64.s:559: Note: Expanded from here
+supermon64.s:691: Note: Expanded from here
+supermon64.s:1268: Note: Expanded from here
+supermon64.s:488: Note: Dropping 9 additional line infos
+supermon64.s:421: Error: Symbol 'ESTAGE' is undefined
+supermon64.s:432: Note: Expanded from here
+supermon64.s:417: Error: Symbol 'STAGE' is undefined
+supermon64.s:421: Note: Expanded from here
+supermon64.s:428: Note: Expanded from here
+supermon64.s:432: Note: Expanded from here
+supermon64.s:441: Note: Expanded from here
+supermon64.s:364: Error: Symbol 'STASH' is undefined
+supermon64.s:984: Note: Expanded from here
+supermon64.s:997: Note: Expanded from here
+supermon64.s:998: Note: Expanded from here
+supermon64.s:1000: Note: Expanded from here
+supermon64.s:1003: Note: Expanded from here
+supermon64.s:1211: Note: Expanded from here
+supermon64.s:1213: Note: Expanded from here
+supermon64.s:356: Error: Symbol 'STORE' is undefined
+supermon64.s:359: Note: Expanded from here
+supermon64.s:565: Note: Expanded from here
+supermon64.s:574: Note: Expanded from here
+supermon64.s:612: Note: Expanded from here
+supermon64.s:621: Note: Expanded from here
+supermon64.s:885: Note: Expanded from here
+supermon64.s:887: Note: Expanded from here
+supermon64.s:892: Note: Expanded from here
+supermon64.s:356: Note: Dropping 7 additional line infos
+supermon64.s:338: Error: Symbol 'UPFLG' is undefined
+supermon64.s:369: Note: Expanded from here
+supermon64.s:385: Note: Expanded from here
+supermon64.s:271: Error: Symbol 'YR' is undefined
+supermon64.s:279: Note: Expanded from here
+supermon64.s:270: Error: Symbol 'XR' is undefined
+supermon64.s:280: Note: Expanded from here
+supermon64.s:269: Error: Symbol 'ACC' is undefined
+supermon64.s:281: Note: Expanded from here
+supermon64.s:265: Error: Symbol 'PCL' is undefined
+supermon64.s:1198: Note: Expanded from here
+supermon64.s:228: Error: Symbol 'SR' is undefined
+supermon64.s:267: Note: Expanded from here
+supermon64.s:284: Note: Expanded from here
+supermon64.s:176: Error: Symbol 'SAVY' is undefined
+supermon64.s:336: Note: Expanded from here
+supermon64.s:349: Note: Expanded from here
+supermon64.s:377: Note: Expanded from here
+supermon64.s:435: Note: Expanded from here
+supermon64.s:444: Note: Expanded from here
+supermon64.s:751: Note: Expanded from here
+supermon64.s:754: Note: Expanded from here
+supermon64.s:133: Error: Symbol 'ENDIN' is undefined
+supermon64.s:131: Error: Symbol 'INBUFF' is undefined
+supermon64.s:133: Note: Expanded from here
+supermon64.s:138: Note: Expanded from here
+supermon64.s:1107: Note: Expanded from here
+supermon64.s:128: Error: Symbol 'CHRPNT' is undefined
+supermon64.s:551: Note: Expanded from here
+supermon64.s:906: Note: Expanded from here
+supermon64.s:912: Note: Expanded from here
+supermon64.s:956: Note: Expanded from here
+supermon64.s:1101: Note: Expanded from here
+supermon64.s:1106: Note: Expanded from here
+supermon64.s:1114: Note: Expanded from here
+supermon64.s:101: Error: Symbol 'SP' is undefined
+supermon64.s:258: Note: Expanded from here
+supermon64.s:276: Note: Expanded from here
+supermon64.s:96: Error: Symbol 'PCH' is undefined
+supermon64.s:113: Note: Expanded from here
+supermon64.s:117: Note: Expanded from here
+supermon64.s:263: Note: Expanded from here
+supermon64.s:1199: Note: Expanded from here
+supermon64.s:38: Error: Symbol 'CBINV' is undefined

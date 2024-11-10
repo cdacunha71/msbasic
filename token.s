@@ -80,6 +80,7 @@
 		keyword_rts "NEW", NEW
 .ifdef EATER
 		keyword_rts "CLS", CLS
+		keyword_rts "MONITOR", MONITOR
 		keyword_rts "SYS", SYS
 		keyword_rts "LCDCLS", LCDCLS
 		keyword_rts "LCDCMD", LCDCMD

@@ -35,3 +35,4 @@
 .include "extra.s"
 .include "lcd.s"
 .include "basic_extra.s"
+.include "supermon64.s"
