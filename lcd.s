@@ -1,9 +1,9 @@
 .segment "CODE"
 .ifdef EATER
-PORTB = $6000
-PORTA = $6001
-DDRB = $6002
-DDRA = $6003
+PORTB = $8800
+PORTA = $8801
+DDRB = $8802
+DDRA = $8803
 
 .ifdef BITMODE4
 E  = %01000000

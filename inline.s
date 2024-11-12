@@ -99,6 +99,8 @@ INLINAIM:
 L2443:
       .ifdef MICROTAN
         cpx     #$4F
+      .elseif EATER
+	cpx	#$4F
       .else
         cpx     #$47
       .endif
